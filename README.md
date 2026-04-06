@@ -67,7 +67,7 @@ uv run fastapi login
 uv run fastapi deploy
 ```
 
-Live at: **https://asr-fastapi.fastapicloud.dev**
+Live at: **https://asr-fastapi-38dd5c03.fastapicloud.dev/**
 
 ---
 
