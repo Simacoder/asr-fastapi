@@ -1,0 +1,11 @@
+# If project is at repo root:
+[build]
+  publish = "dist"
+  command = "npm run build"
+  # base omitted or base = "."
+
+# If project lives in a subfolder 'frontend':
+[build]
+  base = "frontend"
+  publish = "frontend/dist"
+  command = "npm --prefix frontend run build"
